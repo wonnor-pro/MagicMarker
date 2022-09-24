@@ -1,15 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@500&display=swap');
+
+body {
+  /* height: 60px; */
+  width: 200px;
+  font-family: 'Cairo Play', cursive;
+  background-color: whitesmoke;
+}
+
 button {
-    height: 30px;
-    width: 30px;
-    outline: none;
+  outline: none;
     margin: 10px;
     border: none;
     border-radius: 2px;
-  }
-  
-button.current {
+}
+
+.palette {
+    height: 30px;
+    width: 30px;
+    outline: none;
+}
+
+.palette.current {
     box-shadow: 0 0 0 2px white,
-                0 0 0 4px black;
+                0 0 0 3px rgb(59,69,77);
+}
+
+#changeColor {
+  height: 40px;
+  width: 175px;
+  background-color: whitesmoke;
+  border: 1px solid rgb(59,69,77);
+  font-family: 'Cairo Play', cursive;
+  font-size: medium;
+}
+
+#changeColor:hover {
+  background-color: rgb(59,69,77);
+  color: whitesmoke;
+  box-shadow: 2px 5px 10px #888888;
 }
 
 button:hover {

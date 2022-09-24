@@ -1,6 +1,7 @@
 let page = document.getElementById("buttonDiv");
 let selectedClassName = "current";
-const presetButtonColors = ["#3aa757", "#e8453c", "#f9bb2d", "#4688f1"];
+let paletteClassName = "palette";
+const presetButtonColors = ["#fbf595", "#f7af97", "#8dd7f2", "#92d6bd"];
 
 // Reacts to a button click by marking the selected button and saving
 // the selection
@@ -29,6 +30,7 @@ function constructOptions(buttonColors) {
       let button = document.createElement("button");
       button.dataset.color = buttonColor;
       button.style.backgroundColor = buttonColor;
+      button.classList.add(paletteClassName);
 
       // …mark the currently selected color…
       if (buttonColor === currentColor) {
