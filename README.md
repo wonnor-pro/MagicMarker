@@ -11,3 +11,5 @@ Hopefully one day it could auto-generate a markdown notes for me.
 - Able to capture highlighted text to the local storage [✓]
 - Able to output highlighted text in markdown file [ ]
 - Able to summarise and auto-generate key words for the notes [ ] 
+
+![img]('./asset/MVP.png')
