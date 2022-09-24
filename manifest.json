@@ -1,6 +1,6 @@
 {
     "name": "Magic Marker",
-    "description": "A magic marker that helps your productivity!",
+    "description": "A magic marker that helps your productivity.",
     "version": "1.0",
     "manifest_version": 3,
     "background": {
