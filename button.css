@@ -5,6 +5,7 @@ body {
   width: 200px;
   font-family: 'Cairo Play', cursive;
   background-color: whitesmoke;
+  text-align: center;
 }
 
 button {
