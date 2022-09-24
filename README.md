@@ -12,4 +12,4 @@ Hopefully one day it could auto-generate a markdown notes for me.
 - Able to output highlighted text in markdown file [ ]
 - Able to summarise and auto-generate key words for the notes [ ] 
 
-![img]('asset/MVP.png')
+![img]('https://github.com/wonnor-pro/MagicMarker/blob/main/asset/MVP.png')
