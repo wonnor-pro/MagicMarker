@@ -6,7 +6,7 @@ Hopefully one day it could auto-generate a markdown notes for me.
 
 **MVP Plan**
 
-- Chrome Extension basic project setup [$\checkmark$]
+- Chrome Extension basic project setup [✓]
 - Able to highlight text [ ]
 - Able to capture highlighted text to the local storage [ ]
 - Able to output highlighted text in markdown file [ ]
