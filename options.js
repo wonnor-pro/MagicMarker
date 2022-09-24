@@ -1,7 +1,7 @@
 let page = document.getElementById("buttonDiv");
 let selectedClassName = "current";
 let paletteClassName = "palette";
-const presetButtonColors = ["#fbf595", "#f7af97", "#8dd7f2", "#92d6bd"];
+const presetButtonColors = ["#fbf595", "#f7af97", "#8dd7f2", "#92d6bd", '#AF0B0F', '#3B434D'];
 
 // Reacts to a button click by marking the selected button and saving
 // the selection
